@@ -1,0 +1,68 @@
+.scrollable {
+  position: relative;
+}
+
+.scrollable .viewport {
+  position: relative;
+  overflow: hidden;
+}
+
+.scrollable .viewport .overview {
+  position: absolute;
+}
+
+.scrollable .scroll-bar {
+  display: none;
+}
+
+.scrollable .scroll-bar.vertical {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.scrollable .scroll-bar.horizontal {
+  position: relative;
+  width: 100%;
+}
+
+.scrollable .scroll-bar .thumb {
+  position: absolute;
+}
+
+.scrollable .scroll-bar.vertical .thumb {
+  width: 100%;
+}
+
+.scrollable .scroll-bar.horizontal .thumb {
+  height: 100%;
+  left: 0;
+}
+
+.not-selectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Default skin*/
+
+.scrollable.default-skin {
+  padding-right: 15px;
+}
+
+.scrollable.default-skin .scroll-bar.vertical {
+	background-color:#c3c3c3;
+  width: 15px;
+}
+
+.scrollable.default-skin .scroll-bar.horizontal {
+  height: 0;
+}
+
+.scrollable.default-skin .scroll-bar .thumb {
+ background: #f5821f /*url(../img/ScrollerImage.png) no-repeat center center*/;
+}

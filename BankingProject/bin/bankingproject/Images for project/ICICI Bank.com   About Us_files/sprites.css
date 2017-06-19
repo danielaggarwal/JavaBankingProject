@@ -1,0 +1,155 @@
+.footer-twitter,.footer-linkedin,.footer-facebook, .BackgroundImage_DropDown, .winzip, .news-ticker-link, .adobe_pdf_icon1, .MagnifyingGlass, .menu_orange, .breadcrumbs-dropdown-grey, .news-ticker-links, .DisplayArrow_FaqUp, .DisplayImage_Compliment, .DisplayImage_ArrowPointer, .s-20x20rupee, .DisplayImage_Compliment, .DisplayImage_EmailEnvelope, .DisplayImage_Telephone, .icon_deposit, .icon_home, .DisplayImage_LocateUs{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.container footer .containers li.second a{
+	width: inherit;
+	padding-left : 10px;
+	margin-bottom :0;
+}
+
+.tablerow{
+	display: table-row;
+	line-height : 0;
+}
+
+.marb10{
+	margin-bottom: 10px;
+	line-height: 0;
+}
+
+.footer-twitter{
+	background-position: 0 0;
+	width: 27px;
+	display: table-cell;
+}
+
+.footer-linkedin{
+	background-position: 0 -29px ;
+	width: 27px;
+	display: table-cell;
+}
+
+.footer-facebook{
+	background-position: 0 -58px ;
+	width: 27px;
+	display: table-cell;
+}
+
+.BackgroundImage_DropDown{
+	background-position: -30px 0;
+	width: 218px;
+	height: 29px;
+}
+
+.winzip{
+	background-position: -252px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.news-ticker-link{
+	background-position: -31px -32px ;
+	width: 150px;
+	height: 35px;
+}
+
+.adobe_pdf_icon1{
+	background-position: -252px -43px ;
+	width: 45px;
+	height: 42px;
+}
+
+.MagnifyingGlass{
+	background-position: -184px -33px ;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	border : none;
+}
+
+.menu_orange{
+	background-position: -220px -33px ;
+	width: 12px;
+	height: 12px;
+}
+
+.breadcrumbs-dropdown-grey{
+	background-position: -234px -33px ;
+	width: 12px;
+	height: 12px;
+}
+
+.news-ticker-links{
+	background-position: -221px -48px ;
+	width: 20px;
+	height: 11px;
+}
+
+.DisplayArrow_FaqUp{
+	background-position: -31px -71px ;
+	width: 17px;
+	height: 11px;
+}
+
+.DisplayImage_Compliment{
+	background-position: -221px -63px ;
+	width: 27px;
+	height: 28px;
+}
+
+.DisplayImage_ArrowPointer{
+	background-position: -52px -75px ;
+	width: 12px;
+	height: 6px;
+}
+
+.s-20x20rupee{
+	background-position: 0 -100px ;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.DisplayImage_Compliment{
+	background-position: -23px -100px ;
+	width: 27px;
+	height: 28px;
+	display: inline-block;
+}
+
+.DisplayImage_EmailEnvelope{
+	background-position: -54px -100px ;
+	width: 28px;
+	height: 22px;
+	display: inline-block;
+}
+
+.DisplayImage_Telephone{
+	background-position: -86px -99px ;
+	width: 30px;
+	height: 29px;
+	display: inline-block;
+}
+
+.icon_deposit{
+	background-position: 0 -123px ;
+	width: 18px;
+	height: 20px;
+	display: inline-block;
+}
+
+.icon_home{
+	background-position: 0 -147px ;
+	width: 21px;
+	height: 16px;
+	display: inline-block;
+}
+
+.DisplayImage_LocateUs{
+	background-position: -221px -63px ;
+	width: 27px;
+	height: 36px;
+	display: inline-block;
+}
+
